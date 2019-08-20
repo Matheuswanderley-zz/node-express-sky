@@ -20,8 +20,7 @@ if(enviroment !== 'production'){
 
 app.use('/api/v1', routes(router));
 
-app.listen(`${stage.port}`, () =>{
-    console.log(`Server funfando na porta: ${stage.port}`)
-});
+const porta = process.env.PORT || 8080;
+app.listen(porta);
 
 module.exports = app;
