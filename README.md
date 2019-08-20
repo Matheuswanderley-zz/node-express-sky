@@ -8,12 +8,9 @@ Its a simple test application for sky, made with node, express, mongo
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)[![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
 
-### ENDPOINTS #####
+## ENDPOINTS 
 
- # For create a user :
-POST: http://localhost:8080/api/v1/users
 
----
 
 ## For create a user :
 - POST:
